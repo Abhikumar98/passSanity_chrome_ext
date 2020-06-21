@@ -1,0 +1,60 @@
+.container {
+	.header {
+		span {
+			font-size: 10px;
+			display: block;
+			width: 57%;
+			margin-left: auto;
+			margin-top: -15px;
+		}
+		margin-bottom: 24px;
+		.logo {
+			display: flex;
+			justify-content: center;
+			img {
+				height: 48px;
+				width: 48px;
+				margin-right: 12px;
+			}
+			h2 {
+				margin-bottom: 0;
+			}
+		}
+	}
+	width: 20rem;
+	padding: 12px;
+	#password_generator_form {
+		.ant-form-item {
+			margin-bottom: 0;
+			.ant-form-item-label {
+				flex: auto !important;
+			}
+			.ant-form-item-control {
+				flex: auto !important;
+			}
+		}
+	}
+	.generated-password {
+		border: none;
+		display: block;
+		text-align: center;
+		margin: 12px auto;
+		outline: none;
+		width: 70%;
+		background: #f3f3f3;
+		border-radius: 3px;
+		font-size: 16px;
+		resize: none;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	button {
+		margin: 12px auto;
+		display: block;
+	}
+	.footer {
+		margin-top: 24px;
+		text-align: center;
+	}
+}

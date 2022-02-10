@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.3.5",
     "generate-password": "^1.5.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "password-generator": "^2.3.2",
     "postcss-loader": "^3.0.0",
     "react": "^16.13.1",
